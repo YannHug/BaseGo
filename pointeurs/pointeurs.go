@@ -1,0 +1,5 @@
+package pointeurs
+
+func Main() {
+
+}
