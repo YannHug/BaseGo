@@ -9,6 +9,7 @@ import (
 	"gotest/fonction"
 	"gotest/forEach"
 	"gotest/lesStruct"
+	"gotest/pointeurReceiver"
 	"gotest/pointeurs"
 	"gotest/slice"
 	"gotest/tableau"
@@ -30,5 +31,6 @@ func main() {
 	erreur.Main()
 	lesStruct.Main()
 	pointeurs.Main()
+	pointeurReceiver.Main()
 
 }
