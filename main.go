@@ -8,6 +8,7 @@ import (
 	"gotest/erreur"
 	"gotest/fonction"
 	"gotest/forEach"
+	"gotest/lesMap"
 	"gotest/lesStruct"
 	"gotest/pointeurReceiver"
 	"gotest/pointeurs"
@@ -32,5 +33,6 @@ func main() {
 	lesStruct.Main()
 	pointeurs.Main()
 	pointeurReceiver.Main()
+	lesMap.Main()
 
 }
