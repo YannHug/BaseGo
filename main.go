@@ -8,12 +8,14 @@ import (
 	"gotest/erreur"
 	"gotest/fonction"
 	"gotest/forEach"
+	"gotest/interfaces"
 	"gotest/lesMap"
 	"gotest/lesStruct"
 	"gotest/pointeurReceiver"
 	"gotest/pointeurs"
 	"gotest/slice"
 	"gotest/tableau"
+	"gotest/typeInterface"
 	"gotest/variable"
 	"strings"
 )
@@ -34,5 +36,7 @@ func main() {
 	pointeurs.Main()
 	pointeurReceiver.Main()
 	lesMap.Main()
+	interfaces.Main()
+	typeInterface.Main()
 
 }
